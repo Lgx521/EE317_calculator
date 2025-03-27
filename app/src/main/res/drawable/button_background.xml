@@ -2,13 +2,13 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
         <shape android:shape="oval">
-            <solid android:color="#D3D3D3" /> <!-- 按压时的灰色 -->
+            <solid android:color="#D3D3D3" />
             <size android:width="60dp" android:height="60dp" />
         </shape>
     </item>
     <item>
         <shape android:shape="oval">
-            <solid android:color="@color/white" /> <!-- 使用 colors.xml 中的白色 -->
+            <solid android:color="@color/white" />
             <size android:width="60dp" android:height="60dp" />
         </shape>
     </item>
